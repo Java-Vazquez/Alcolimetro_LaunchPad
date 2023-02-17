@@ -1,0 +1,20 @@
+//LCD.h
+#ifndef LCD_H_                       // INICIO DE LCD_H_
+#define LCD_H_
+#define Aura (0x01)                  // definir el BIT0
+#define Beto (0x02)                  // definir el BIT1
+
+unsigned char *DatosP;               // tabla de datos
+unsigned char Contador;              // contador de datos
+unsigned char Variable;              // variable de uso general
+unsigned char Variable2;             // auxiliar de respaldo de la variable de uso general
+unsigned char Variable3;             // variable de uso general
+
+void lcd(void);
+void displayinicio(void);
+void renglon1(void);
+void renglon2(void);
+void SaltoRenglon(void);
+void DLCD(unsigned char);
+
+#endif                                 //CIERRE DE LCD_H_

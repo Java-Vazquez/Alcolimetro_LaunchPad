@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project Alcolimetro ****
+
+"D:\\Program Files\\Texas Instruments\\ccs\\utils\\bin\\gmake" -k -j 12 all -O 
+ 
+gmake[1]: 'Alcolimetro.out' is up to date.
+
+**** Build Finished ****
